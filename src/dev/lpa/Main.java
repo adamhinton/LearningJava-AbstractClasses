@@ -1,5 +1,7 @@
 package dev.lpa;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -11,6 +13,15 @@ public class Main {
 
         // Method expects Animal but we can pass in Dog
         doAnimalStuff(dog);
+
+
+        ArrayList<Animal> animals = new ArrayList<>();
+        animals.add(dog);
+        animals.add(new Dog("German Sh", "big", 150));
+        animals.add(new Fish("Goldfish", "small", 1));
+        animals.add(new Fish("Barracuda", "big", 75));
+        animals.add(new Dog("Pug", "small", 20));
+
 
     }
 
