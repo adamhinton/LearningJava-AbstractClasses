@@ -14,6 +14,7 @@ public abstract class Animal {
     }
 
     // No fxn body
+    // method bodies don't compile
     public abstract void move(String speed);
     public abstract void makeNoise();
 }
