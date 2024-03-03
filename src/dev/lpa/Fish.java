@@ -9,10 +9,10 @@ public class Fish extends Animal{
     @Override
     public void move(String speed) {
         if (speed.equals("slow")){
-            System.out.println(type + "lazily");
+            System.out.println(getExplicitType() + "lazily");
         }
         else{
-            System.out.println(type + "darting frantically!");
+            System.out.println(getExplicitType() + "darting frantically!");
         }
     }
 
