@@ -2,12 +2,13 @@ package dev.lpa;
 
 public class Dog extends Animal{
 
-    public void move(String){
+    @Override
+    public void move(String speed) {
 
     }
 
-    public void makeNoise(){
+    @Override
+    public void makeNoise() {
 
     }
-
 }
