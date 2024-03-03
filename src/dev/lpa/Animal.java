@@ -23,3 +23,16 @@ public abstract class Animal {
     public abstract void move(String speed);
     public abstract void makeNoise();
 }
+
+
+abstract class Mammal extends Animal{
+
+    // we're not forced to implement move/makenoise methods here. Why not?
+    // Abstract can implement all/none/some of parent's abstract methods
+    // Can also make more abstract methods
+    public Mammal(String type, String size, double weight) {
+        super(type, size, weight);
+    }
+
+
+}

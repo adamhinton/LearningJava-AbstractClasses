@@ -25,4 +25,14 @@ public class Dog extends Animal{
             System.out.println("Woof");
         }
     }
+
+    // This will get you whacked
+//    @Override
+//    public String getExplicitType(){
+//
+//    }
+
+
+
+
 }
