@@ -9,10 +9,10 @@ public class Main {
 //        Animal animal = new Animal("animal", "big", 100);
 
         Dog dog = new Dog ("Wolf", "big", 100);
-        dog.makeNoise();
+//        dog.makeNoise();
 
         // Method expects Animal but we can pass in Dog
-        doAnimalStuff(dog);
+//        doAnimalStuff(dog);
 
 
         ArrayList<Animal> animals = new ArrayList<>();
@@ -22,6 +22,10 @@ public class Main {
         animals.add(new Fish("Barracuda", "big", 75));
         animals.add(new Dog("Pug", "small", 20));
 
+
+        for (Animal animal : animals){
+            doAnimalStuff(animal);
+        }
 
     }
 
