@@ -13,7 +13,8 @@ public abstract class Animal {
         this.weight = weight;
     }
 
-    public String getExplicitType(){
+    // final comes after access by default
+    public final String getExplicitType(){
         return getClass().getSimpleName() + " (" + type + ")";
     }
 
