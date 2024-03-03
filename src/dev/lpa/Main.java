@@ -9,6 +9,9 @@ public class Main {
         Dog dog = new Dog ("Wolf", "big", 100);
         dog.makeNoise();
 
+        // Method expects Animal but we can pass in Dog
+        doAnimalStuff(dog);
+
     }
 
     // We can't create an animal, but we can still use that type in declarations, lists etc
