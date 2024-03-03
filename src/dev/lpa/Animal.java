@@ -13,6 +13,10 @@ public abstract class Animal {
         this.weight = weight;
     }
 
+    public String getExplicitType(){
+        return getClass().getSimpleName() + " (" + type + ")";
+    }
+
     // No fxn body
     // method bodies don't compile
     public abstract void move(String speed);
